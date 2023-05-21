@@ -1,0 +1,31 @@
+.footer {
+  min-height: 10vh;
+  background: #0c1142;
+  color: white;
+  padding: $padding;
+
+  .social {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  label a {
+    color: white;
+    font-size: 25px;
+    background: #0c1142;
+    padding: 0 10px;
+
+    &:hover {
+      color: #e1b51c;
+    }
+  }
+
+  .copr {
+    width: 40%;
+    float: left;
+    margin-top: 20px;
+    text-align: left;
+  }
+}

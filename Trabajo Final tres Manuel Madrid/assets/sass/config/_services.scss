@@ -1,0 +1,26 @@
+.servicios {
+  min-height: $heightSection;
+  padding: $padding;
+  position: relative;
+  background: #4d5597;
+  color: white;
+
+  .servicios_img {
+    margin-top: 30px;
+  }
+
+  .servicios-imgx {
+    width: 33%;
+    height: 33%;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  .img-job {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,23 @@
+
+//ANCHO DE BARRA SCROLL
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+//COLOR FONDO  BARRA SCROLL
+::-webkit-scrollbar-track{
+    background:#3a3636 ;
+}
+
+//BARRA INTERNA SCROLL
+::-webkit-scrollbar-thumb{
+    background:#615B5B ;
+}
+
+//BARRA INTERNA SCROLL HOVER
+::-webkit-scrollbar-thumb:hover{
+    background: #534D4D;
+}
+
+
+
